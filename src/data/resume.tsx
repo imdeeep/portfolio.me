@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon,Download } from "lucide-react";
+import { HomeIcon,Download, Icon } from "lucide-react";
 import profilePic from "../../public/me.jpeg"
 
 export const DATA = {
@@ -97,33 +97,243 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "NoteBin",
+      href: "https://notebin-svvv.vercel.app/",
+      dates: "31 July - 2 August 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Notebin is a platform designed to help students find, organize, and share academic notes and materials. It offers a centralized hub for all your study resources, making it easy to access a wide range of study materials and contribute to the community by sharing your own notes.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Express.js",
+        "Javascript",
+        "MongoDb",
+        "Cloudinary",
+        "Nodemailer",
+        "Jwt",
+        "Redux",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://notebin-svvv.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "GitHub",
+          href: "https://github.com/imdeeep/notebin",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072293/jpyk7a7itxsqby9vsdll.png",
     },
+    {
+      title: "Lambda",
+      href: "https://mylambda.vercel.app/",
+      dates: "July - Present",
+      active: true,
+      description:"A real-time chat platform built with Socket.IO, featuring user profiles, friend connections, and group creation. It offers a social media experience for seamless interactions. The project is currently a work in progress.",
+      technologies: [
+        "Next.js",
+        "Express.js",
+        "Javacript",
+        "MongoDb",
+        "Socket.IO",
+        "Redux",
+        "Cloudinary",
+        "Multer",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mylambda.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/lambda",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072289/refzs66kbk1fve4kffgs.png",
+    },
+    {
+      title: "JobBoard",
+      href: "https://jobboardsite.vercel.app/",
+      dates: "June 2024",
+      active: true,
+      description:
+        "A website where employers can post job openings and job seekers can search and apply for jobs.",
+        technologies: [
+          "Next.js",
+          "Express.js",
+          "Javascript",
+          "MongoDb",
+          "Nodemailer",
+          "Jwt",
+          "Redux",
+        ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jobboardsite.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/JobBoard",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072294/klnhwfi6xcfilitydvgx.png",
+    },
+    {
+      title: "Veloura",
+      href: "https://veloura-site.vercel.app/",
+      dates: "May 2024 - Present",
+      active: true,
+      description:
+        "A premium clothing e-commerce platform, currently a work in progress.",
+      technologies: [
+        "Next.js",
+        "Redux",
+        "MongoDB",
+        "Express.js",
+        "GSAP",
+        "Lenis",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://veloura-site.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/veloura",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072295/mbdmtvvidqeyc14mbpnz.png",
+    },
+    {
+      title: "Abhyudaya Coding Club",
+      href: "https://abhyudayacodingclub.vercel.app/",
+      dates: "July 2024",
+      active: true,
+      description:
+      "Official Abhyudaya Coding Club website, a hub for coding enthusiasts to collaborate, learn, and showcase their projects. The site features coding resources, event announcements, and a platform for members to connect and share ideas.",
+      technologies: [
+        "Next.js",
+        "Redux",
+        "MongoDB",
+        "Express.js",
+        "GSAP",
+        "Lenis",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://abhyudayacodingclub.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/abhyudayaCodingClub",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072295/mlz6qddyx72jcriqwnmn.png",
+    },
+    {
+      title: "DocFlow",
+      href: "https://docflow.netlify.app/",
+      dates: "June 2024",
+      active: true,
+      description:
+        "A collaborative document editing system featuring real-time chat functionality.",
+      technologies: [
+        "Next.js",
+        "MongoDB",
+        "Express.js",
+        "Firebase",
+        "Jwt",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://docflow.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/docflow",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072290/jhllj580anjrbsp8qbrv.png",
+    },
+    {
+      title: "Abhyudaya Elite",
+      href: "https://abhyudyaelite.vercel.app/",
+      dates: "May 2024",
+      active: true,
+      description:
+      "Official Abhyudaya Elite website, a hub for coding enthusiasts to collaborate, learn, and showcase their projects. The site features coding resources, event announcements, and a platform for members to connect and share ideas.",
+      technologies: [
+        "Next.js",
+        "GSAP",
+        "Framer Motion",
+        "Jwt",
+        "Express.js",
+        "MongoDB",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://abhyudyaelite.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/Elite-Website",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072293/n8iurz8cfrn24zxlufkv.png",
+    },
+    {
+      title: "DreamDose",
+      href: "https://dreamdose.vercel.app/",
+      dates: "Decemeber 2023",
+      active: true,
+      description:
+        "A site dedicated to the horror genre, where users can write, upload, and share chilling stories, articles, and blogs. The platform offers a space for horror enthusiasts to create and engage with content.",
+      technologies: [
+        "Next.js",
+        "GSAP",
+        "Framer Motion",
+        "Jwt",
+        "Express.js",
+        "MongoDB",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dreamdose.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href:"https://github.com/imdeeep/Dreamdose",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072289/iuyhdxhp5bucsdrqwptm.png",
+    },
+
   ],
   hackathons: [
     {
