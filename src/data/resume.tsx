@@ -1,6 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon,Download, Icon } from "lucide-react";
-import profilePic from "../../public/me.jpeg"
+// import profilePic from "../../public/me.jpeg"
 
 export const DATA = {
   name: "Mandeep Yadav",
@@ -96,6 +96,38 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "buildmynotes.com",
+      href: "https://buildmynotes.com/",
+      dates: "10 Aug - 11 Sept 2024",
+      active: true,
+      description:
+        "Build My Notes is an AI-powered platform that helps students convert audio and video content into organized notes, quizzes, flashcards, and mind maps. With support for over 100 languages, it automates note-taking, quiz creation, and provides a 24/7 AI tutor for instant help. Offering tailored plans for students and institutions, Build My Notes aims to simplify studying and enhance learning efficiency.",
+      technologies: [
+        "Next.js",
+        "Express.js",
+        "FFmpeg",
+        "Javascript",
+        "MongoDb",
+        "Google Analytics",
+        "Azzure",
+        "Jwt",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://buildmynotes.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1726937726/ye30mwk5gt8aghbbh7b8.png",
+    },
     {
       title: "NoteBin",
       href: "https://notebin-svvv.vercel.app/",
