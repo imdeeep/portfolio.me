@@ -11,7 +11,7 @@ export const DATA = {
     "Web Developer, Native Developer, Open-Source Contributor, DSA and Cybersecurity Enthusiast, Constant Learner",
   summary:
   "I'm a [Cybersecurity enthusiast and Web Developer](/#work) with a passion for building secure and scalable solutions. Currently [pursuing a Bachelor's in Cybersecurity](/#education), I'm skilled in Network Security, Web Development, and languages like Python, Java, C. I'm actively working on [open-source projects, developing web-based solutions, and enhancing my skills in DSA and cybersecurity](/#rightnow). Eager to contribute to impactful projects and collaborate on exciting opportunities!",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/me.jpg",
   skills: [
     "React",
     "React Native",
