@@ -97,6 +97,74 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Superbox",
+      href: "https://superb0x.vercel.app/",
+      dates: "17 Oct - Present",
+      active: true,
+      description:
+        "Superbox is a browser extension that enables users to seamlessly capture and manage web content. With just one click, you can save the DOM content of any website and keep it in the extension's interface, making it easier to organize and refer back to relevant information.",
+      technologies: [
+        "Next.js",
+        "Express.js",
+        "Socket.io",
+        "Javascript",
+        "MongoDb",
+        "Google Analytics",
+        "Azzure",
+        "Google Api",
+        "Cloudinary",
+        "Jwt",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://superb0x.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1732811103/epoy6f7dntzcq1axtwyh.png",
+    },
+    {
+      title: "Nexus",
+      href: "https://our-nexus.vercel.app/",
+      dates: "16 Sep - Present",
+      active: true,
+      description:
+        "Nexus is a student-focused platform for learning, networking, and collaboration. It enables users to search, save, and share notes effortlessly while engaging in real-time chats. With a secure and vibrant community, Nexus fosters knowledge-sharing and meaningful connections.",
+      technologies: [
+        "Next.js",
+        "Express.js",
+        "Socket.io",
+        "Javascript",
+        "MongoDb",
+        "Google Analytics",
+        "Azzure",
+        "Google Api",
+        "Cloudinary",
+        "Jwt",
+        "Redux",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://our-nexus.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1732810469/jopao3kid69xw1i4inlq.png",
+    },
+    {
       title: "buildmynotes.com",
       href: "https://buildmynotes.com/",
       dates: "10 Aug - 11 Sept 2024",
@@ -157,7 +225,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1725072293/jpyk7a7itxsqby9vsdll.png",
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1732808764/yxun9hthstzenaem6kct.png",
     },
     {
       title: "Lambda",
@@ -368,6 +436,22 @@ export const DATA = {
 
   ],
   hackathons: [
+    {
+      title: " Void Hacks( ) 6.0",
+      dates: "19 November - 20 November 2023",
+      location: "Indore, India",
+      description:
+        "Developed an online student internship management system as a solution to manage students and track their progress during the internship period.",
+      image:
+        "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-65149896437c0_vhlogo.png?d=200x200",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://github.com/weareZen/VoidHacks6.0-zen",
+        },
+      ],
+    },
     {
       title: "Hack'Ndore",
       dates: "27 July - 29 July 2023",
