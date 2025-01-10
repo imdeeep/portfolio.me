@@ -97,6 +97,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Quant.ai",
+      href: "https://quant-ai.vercel.app",
+      dates: "6 Jan 2024 - 9 Jan 2024",
+      active: true,
+      description:
+        "Quant is a powerful tool designed to analyze social media accounts for engagement and reach. It provides users with actionable insights to improve their social media presence. By simply entering a username, Quant automates the process of reviewing posts and analyzing account activity, saving users from the tedious task of manual evaluation.",
+      technologies: [
+        "React.js",
+        "FastAPI",
+        "Uvicorn",
+        "AstraDB",
+        "LangFlow RAG",
+        "Render",
+        ],
+      links: [
+        {
+          type: "Website",
+          href: "https://quant-ai.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/imdeeep/quant",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://res.cloudinary.com/dnm3zl9dp/image/upload/v1736509280/b40jd0fxigcvpcvhxt2r.png",
+    },
+    {
       title: "Superbox",
       href: "https://superb0x.vercel.app/",
       dates: "17 Oct - Present",
@@ -462,7 +491,7 @@ export const DATA = {
         "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-66914f3895d69_hackendore_jpg.png?d=200x200",
       links: [
         {
-          title: "Website",
+          title: "Website", 
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://imc-hackndore.vercel.app/",
         },
