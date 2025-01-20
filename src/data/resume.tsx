@@ -466,8 +466,24 @@ export const DATA = {
   ],
   hackathons: [
     {
+    title: "Level SuperMind Hackathon",
+    dates: "18 January - 19 January 2025",
+    location: "Mumbai, India",
+    description:
+      "Developed an ART Finder is to streamline the research phase of ad creation by automating data gathering and analysis.",
+    image:
+      "https://play-lh.googleusercontent.com/EpAO_mYRzce44viXu6Bt-BAgFxIeT50etaPQznpicFuAt94KhUdtBbs3EoKjki3bBaXs=w240-h480-rw",
+    links: [
+      {
+        title: "Website",
+        icon: <Icons.globe className="h-4 w-4" />,
+        href: "https://github.com/NawadhaJadiya/ARTfinder",
+      },
+    ],
+  },
+    {
       title: " Void Hacks( ) 6.0",
-      dates: "19 November - 20 November 2023",
+      dates: "19 November - 20 November 2024",
       location: "Indore, India",
       description:
         "Developed an online student internship management system as a solution to manage students and track their progress during the internship period.",
@@ -483,7 +499,7 @@ export const DATA = {
     },
     {
       title: "Hack'Ndore",
-      dates: "27 July - 29 July 2023",
+      dates: "27 July - 29 July 2024",
       location: "Indore, India",
       description:
         "Developed an asset management system for Indore Municipal Corporation (IMC) to manage all assets under IMC. This system aimed to streamline the tracking and management of municipal assets.",
