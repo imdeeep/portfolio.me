@@ -31,7 +31,7 @@ export const DATA = {
   initials: "MY",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/13IdIwbDCP00wDcdhtOOU5Ac4riuVEPy3/view", icon: Download, label: "Resume" },
+    { href: "https://drive.google.com/file/d/15wLkZldEYU_3BNO3xXEocpq-I1oLc625/view", icon: Download, label: "Resume" },
   ],
   contact: {
     email: "mandeep7yadav@gmail.com",
